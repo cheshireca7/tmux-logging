@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+#CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CURRENT_DIR="$HOME/.tmux/plugins/tmux-logging/scripts/"
 
 source "$CURRENT_DIR/variables.sh"
 source "$CURRENT_DIR/shared.sh"
